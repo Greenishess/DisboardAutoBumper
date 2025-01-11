@@ -10,7 +10,7 @@ First, add Fibo. This is the Bump Remind bot. https://top.gg/bot/735147814878969
 Take note of the channel you want to use /bump in. In said channel, do the following commands:
 ```
 %setup add #channel-to-bump-in
-#setup ping @YourSelfBot
+%setup ping @YourSelfBot
 ```
 I suggest you use a private channel due to the rules regarding this operation.
 
