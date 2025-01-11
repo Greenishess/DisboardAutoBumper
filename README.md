@@ -10,12 +10,14 @@ First, add Fibo. This is the Bump Remind bot. https://top.gg/bot/735147814878969
 Take note of the channel you want to use /bump in. In said channel, do the following commands:
 
 %setup add #channel-to-bump-in
+
 #setup ping @YourSelfBot
 
 I suggest you use a private channel due to the rules regarding this operation.
 
 ## Aquire the Discord User Token and Channel ID
 Get the Discord token. There are many ways to do it, one of the easier ways is [this](https://www.geeksforgeeks.org/how-to-get-discord-token/). Once you do this, save the token for later.
+
 Then get the channel ID of where you setup Fibo to remind in. You must [enable developer mode](https://www.howtogeek.com/714348/how-to-enable-or-disable-developer-mode-on-discord/) to do this. Once you enable developer mode, right click the channel that you setup Fibo to remind in and click Copy Channel ID, then save that for later.
 
 ## Running the self bot
