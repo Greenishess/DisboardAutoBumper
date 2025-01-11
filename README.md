@@ -21,6 +21,16 @@ Then get the channel ID of where you setup Fibo to remind in. You must [enable d
 
 ## Running the self bot
 I suggest you use the script on a computer running 24/7 for maximum bumping. Anywho, how to run:
+
+Download the discord.py-self library
+```
+# Linux/macOS
+python3 -m pip install git+https://github.com/dolfies/discord.py-self@2193ws21sf4cs74hdg317ac8ad076ed234d3dbf70g1#egg=selfcord.py[voice]
+
+# Windows
+py -3 -m pip install git+https://github.com/dolfies/discord.py-self@2193ws21sf4cs74hdg317ac8ad076ed234d3dbf70g1#egg=selfcord.py[voice]
+```
+Then install requirements
 ```
 pip install -r requirements.txt
 python main.py
